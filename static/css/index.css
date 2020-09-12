@@ -1,0 +1,33 @@
+body{
+	background-color: white;
+	min-height:100em;
+	margin: 0;
+}
+
+.header{
+	background-color: red;
+	width: 100vw;
+	height: 4em;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+.hamburger{
+	width: 4em;
+	height: 4em;
+	background-color: chartreuse;
+}
+
+.sidebar{
+	background-color: black;
+	width:20em;
+	height: calc(100vh - 4em);
+	position: fixed;
+	top: 4em;
+	left: -20em;
+	transition: .25s;
+}
+.sidebar.open{
+	left: 0;
+}
