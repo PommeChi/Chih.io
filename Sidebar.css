@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Gudea&display=swap');
+
+*{
+    box-sizing:border-box;
+    padding:0;
+}
+.sidebar {
+    left:0px;
+    border-radius:8px;
+}
+
+.sidebarnav {
+    position: fixed;
+    width: 252px;
+    height: 100%;
+    left: 0;
+    border-radius: 8px;
+    background-color: black;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    border-bottom: 1px solid #5E548E;
+}
+
+    ul li {
+        border-radius: 8px;
+    }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+            font-family: 'Gudea', sans-serif;
+        }
+        ul li:hover {
+            background-color: #23CE6B;
+            transition: linear 0.2s;
+        }
+
+        ul li.blue:hover {
+            background-color: blue;
+            transition: linear 0.2s;
+        }
+
+        ul li.red:hover {
+            background-color: red;
+            transition: linear 0.2s;
+        }
+
+        ul li.purple:hover {
+            background-color: #32213A;
+            transition: linear 0.2s;
+        }
+
+        ul li.pink:hover {
+            background-color: #9F86C0;
+            transition: linear 0.2s;
+        }
+
+        ul li.orange:hover {
+            background-color: #CC7700;
+            transition: linear 0.2s;
+        }
+
+.header {
+    background-color: black;
+    min-height: 20px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    background-color: black;
+}
+
+/*YAY BUTTON TIME AGAIN *CRY LAUGHS AND OSES MIND*/
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    border-radius: 8px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    background-color: #23CE6B;
+    transition: linear 0.2s;
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    background-color: #23CE6B;
+    transition: linear 0.2s;
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
